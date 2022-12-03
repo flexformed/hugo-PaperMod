@@ -1,14 +1,14 @@
 baseURL: "https://github.com/flexformed/hugo-PaperMod" # if your site is in 'https', then make sure your base url isn't written using 'http' otherwise your sitemap would contain http (as opposeed to https) URLs. This would affect Google indexing of your URLs.
 title: PaperMod
 paginate: 5
-theme: github.com/adityatelange/hugo-PaperMod
+theme: github.com/flexformed/hugo-PaperMod
 
 enableInlineShortcodes: true
-enableRobotsTXT: true
+enableRobotsTXT: false
 buildDrafts: false
 buildFuture: false
 buildExpired: false
-enableEmoji: true
+enableEmoji: false
 pygmentsUseClasses: true
 # googleAnalytics: UA-123-45
 
@@ -36,7 +36,7 @@ languages:
                   url: tags/
                   weight: 10
                 - name: WiKi
-                  url: https://github.com/adityatelange/hugo-PaperMod/wiki/
+                  url: https://github.com/flexformed/hugo-PaperMod/wiki/
                 - name: Discord
                   url: https://discord.gg/ahpmTvhVmp
 
@@ -61,7 +61,7 @@ languages:
                 - name: Blog
                   url: posts
                 - name: Profile Mode
-                  url: https://github.com/adityatelange/hugo-PaperMod/wiki/Features#profile-mode
+                  url: https://github.com/flexformed/hugo-PaperMod/wiki/Features#profile-mode
         menu:
             main:
                 - name: Archive
